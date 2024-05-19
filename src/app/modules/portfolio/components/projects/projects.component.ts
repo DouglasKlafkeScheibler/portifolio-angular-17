@@ -17,16 +17,16 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/Valorant_omen.png',
-      alt: 'Em desenvolvimento',
-      title: 'Em desenvolvimento',
+      src: 'assets/img/projects/logo_valorant_spots.png',
+      alt: 'Valorant Spots',
+      title: 'Valorant Spots',
       width: '130px',
       height: '130px',
-      description: '<p>Em desenvolvimento</p>',
+      description: '<p>Aqui você encontrará informações e estratégias para melhorar o seu desempenho no Valorant.</p>',
       links: [
         {
           name: 'Valorant Spots',
-          href: 'https://URLPROJETO.COM.BR'
+          href: 'https://valorant-spots.vercel.app'
         }
       ]
     }
