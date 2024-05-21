@@ -26,7 +26,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'Valorant Spots',
-          href: 'https://valorant-spots.vercel.app'
+          href: 'https://valorantspots.com'
         }
       ]
     }
